@@ -13,8 +13,8 @@ export default function App() {
 
 
   return (
-    <div className="pdf-container"   style={{border: '1px solid red',backgroundColor:'rgb(99,104,97)'}}>
-    <PDFReader showAllPage={true} scale="1.6" url={demoFile}/>
+    <div className="pdf-container d-flex justify-content-center"   style={{overflow:'',backgroundColor:'rgb(99,104,97)'}}>
+    <PDFReader showAllPage={true} scale="1.3" url={demoFile}/>
     <div className="footer">
       <div className="socialdiv">
         <a target='_blank' rel="noreferrer" href="https://www.twitter.com/Habitat--sa" className="twitter social">
