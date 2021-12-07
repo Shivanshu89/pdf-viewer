@@ -36,10 +36,10 @@ export default function App() {
       <PDFReader showAllPage={true} scale="1.3" url={demoFile} />
       <div className="footer">
         <div className="socialdiv">
-          <a target='_blank' rel="noreferrer" href="https://www.twitter.com/Habitat--sa" className="twitter social">
+          <a target='_blank' rel="noreferrer" href="https://twitter.com/habitat__sa/status/1467847252047806465?s=24" className="twitter social">
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
-          <a target='_blank' rel="noreferrer" href="https://www.twitter.com/Habitat--sa"
+          <a target='_blank' rel="noreferrer" href="https://twitter.com/habitat__sa/status/1467847252047806465?s=24"
             className="instagram social">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
