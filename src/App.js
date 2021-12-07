@@ -13,7 +13,7 @@ export default function App() {
 
 
   return (
-    <div className="pdf-container"   style={{overflow:'hidden',backgroundColor:'rgb(99,104,97)'}}>
+    <div className="pdf-container"   style={{border: '1px solid red',backgroundColor:'rgb(99,104,97)'}}>
     <PDFReader showAllPage={true} scale="1.6" url={demoFile}/>
     <div className="footer">
       <div className="socialdiv">
