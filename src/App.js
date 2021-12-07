@@ -13,7 +13,7 @@ export default function App() {
 
 
   return (
-    <div className="pdf-container d-flex justify-content-start"   style={{overflow:'',backgroundColor:'rgb(99,104,97)', backgroundSize:'cover'}}>
+    <div className="pdf-container d-flex justify-content-center"   style={{overflow:'',backgroundColor:'rgb(99,104,97)'}}>
     <PDFReader showAllPage={true} scale="1.3" url={demoFile}/>
     <div className="footer">
       <div className="socialdiv">
