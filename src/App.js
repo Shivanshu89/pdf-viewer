@@ -19,7 +19,7 @@ export default function App() {
     }
   }, [])
 
-  if (true) {
+  if (loading) {
   
     return (
       <Spinner  className="d-flex justify-content-center align-items-center" animation="border" style={{
