@@ -32,7 +32,7 @@ export default function App() {
     )
   }
   return (
-    <div className="pdf-container d-flex justify-content-center" style={{ overflow: '', backgroundColor: 'rgb(99,104,97)' }}>
+    <div className="pdf-container d-flex" style={{ overflow: '', backgroundColor: 'rgb(99,104,97)' }}>
       <PDFReader showAllPage={true} scale="1.3" url={demoFile} />
       <div className="footer">
         <div className="socialdiv">
